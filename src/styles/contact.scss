@@ -1,0 +1,44 @@
+.contact-page-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    h1 {
+        text-align: center;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        
+        label {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+
+            input{
+                padding: 5px;
+                border-radius: 5px;
+                border: 1px solid black;
+            }
+        }
+        
+        button {
+            width: fit-content;
+            margin: 10px auto 0 auto;
+            padding: 10px 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-color: white;
+            border-radius: 5px;
+            border: 2px solid black;
+            cursor: pointer;
+            
+            &:hover {
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+
+}
